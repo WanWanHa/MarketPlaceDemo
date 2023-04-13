@@ -9,7 +9,7 @@ class SimpleEcho(WebSocket):
     def handleMessage(self):
         # echo message back to client
         print("receive data: " + self.data)
-        self.sendMessage(self.data + " From Server  " + self.request )
+        self.sendMessage(self.data + " From Server  " )
 
     def handleConnected(self):
         #print(self.client, 'connected  ' )
