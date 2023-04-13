@@ -34,3 +34,12 @@ and then we create same color of actor and spawn it in level:
 ## 4: 保存图片为 asset 资源
 ![image](https://user-images.githubusercontent.com/8192020/226088590-a519c9cb-f6bd-43dc-a07f-e119f24d490e.png)   
 
+
+
+Main function for this feature is:
+GetImageCategoryFromImageFile:   
+![image](https://user-images.githubusercontent.com/8192020/213403079-bc2940bb-2b33-44e5-b5d9-dcbd02e2940b.png)   
+GetImageCategoryImageFromBinary:   
+![image](https://user-images.githubusercontent.com/8192020/213403204-26427367-163a-417d-a1f9-ae664f0f024b.png)
+
+
