@@ -285,7 +285,7 @@ class WebSocket(object):
                   self.sendq.append((BINARY, hStr.encode('ascii')))
                   self.handshaked = True
                   #self.handleConnected()
-                  self.handleConnectedWithHeader(self.request.raw_requestline)
+                  self.handleConnectedWithHeader(data)
                except Exception as e:
                   hStr = FAILED_HANDSHAKE_STR
                   self._sendBuffer(hStr.encode('ascii'), True)

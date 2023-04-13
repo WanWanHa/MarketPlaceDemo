@@ -16,13 +16,19 @@ class SimpleEcho(WebSocket):
         pass
 
     def handleConnectedWithHeader(self, header):
-        match = re.search(r"token=([\w\d\S]+)\s", header.decode('utf-8'))
-        token = match.group(1)
-        if token == "thisisavalidtoken" :
-            print("connected")
-        else:
-            print("not connected")
-            raise Exception("token is not valid")
+        strings = header.decode().split("\n\n")
+
+        for string in strings:
+            lines = string.split("\n")
+            for line in lines:
+                if line.startswith("token:"):
+                    match = re.match(r"token:\s*(\S+)", line)
+                    token = match.group(1)
+                    if token == "thisisavalidtoken" :
+                        print("connected")
+                    else:
+                        print("not connected")
+                        raise Exception("token is not valid")  
     
     def handleClose(self):
         print(self.address, 'closed')
