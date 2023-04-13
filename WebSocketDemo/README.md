@@ -6,7 +6,7 @@
 [LINK for plugin in Unreal Market](https://www.unrealengine.com/marketplace/zh-CN/product/websocket)  
 
 # step 1, build the websocket server (if you already have a websocket server, ignore this step)   
-clone code from this repo, [LINK](https://github.com/WanWanHa/WebSocketServer)   
+clone code from this repo, [LINK](https://github.com/WanWanHa/MarketPlacePluginsDemo/tree/master/WebSocketServer)   
 and run this server
 
 # step 2, Create Websocket,    
