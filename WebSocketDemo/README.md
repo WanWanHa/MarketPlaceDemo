@@ -1,5 +1,10 @@
 # WebSocketDemo introduction
 
+[Video Link](https://youtu.be/PXeCDExed7k)  
+[视频教程](https://www.bilibili.com/video/BV1vA411C7dc/)  
+[虚幻商场插件 链接](https://www.unrealengine.com/marketplace/zh-CN/product/websocket)  
+[LINK for plugin in Unreal Market](https://www.unrealengine.com/marketplace/zh-CN/product/websocket)  
+
 # step 1, build the websocket server (if you already have a websocket server, ignore this step)   
 clone code from this repo, [LINK](https://github.com/MacroGu/WebSocketServer)   
 and run this server

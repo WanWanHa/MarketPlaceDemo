@@ -6,10 +6,11 @@ plugin link:
 introduction videos：   
 [B站中国 第一部分](https://www.bilibili.com/video/BV1cF411A7Ex?share_source=copy_web&vd_source=74c5a7ee7e63695eed9e0f75ba7bbc88)  
 [B站中国 第二部分](https://www.bilibili.com/video/BV1Z94y1D7BV?share_source=copy_web&vd_source=74c5a7ee7e63695eed9e0f75ba7bbc88)  
+[B站中国 3](https://www.bilibili.com/video/BV1n8411K7fg/?spm_id_from=333.999.0.0&vd_source=a469877844c9c82cdc57fc0d3c386028)  
 [YouTuBe](https://www.youtube.com/watch?v=OoNrNrngZdA&t=5s)  
 [YouTuBe Part One](https://youtu.be/jYEhRYz5ZXA)  
 [YouTuBe Part Two](https://youtu.be/OoNrNrngZdA)  
-
+[YouTuBe Part 3](https://youtu.be/c4_Fp8S95ts)  
 
 for plugin usage :  
 step 1:
