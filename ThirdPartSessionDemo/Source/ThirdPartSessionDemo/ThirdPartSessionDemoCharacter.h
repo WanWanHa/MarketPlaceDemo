@@ -5,11 +5,11 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "InputActionValue.h"
-#include "EasySteamSessionDemoCharacter.generated.h"
+#include "ThirdPartSessionDemoCharacter.generated.h"
 
 
 UCLASS(config=Game)
-class AEasySteamSessionDemoCharacter : public ACharacter
+class AThirdPartSessionDemoCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
@@ -38,7 +38,7 @@ class AEasySteamSessionDemoCharacter : public ACharacter
 	class UInputAction* LookAction;
 
 public:
-	AEasySteamSessionDemoCharacter();
+	AThirdPartSessionDemoCharacter();
 	
 
 protected:

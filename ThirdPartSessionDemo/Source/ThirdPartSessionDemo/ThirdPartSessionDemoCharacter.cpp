@@ -1,6 +1,6 @@
 // Copyright (c) 2023, Hong Gu <guhong.usa@gmail.com>. All Rights Reserved.
 
-#include "EasySteamSessionDemoCharacter.h"
+#include "ThirdPartSessionDemoCharacter.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
@@ -12,9 +12,9 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-// AEasySteamSessionDemoCharacter
+// AThirdPartSessionDemoCharacter
 
-AEasySteamSessionDemoCharacter::AEasySteamSessionDemoCharacter()
+AThirdPartSessionDemoCharacter::AThirdPartSessionDemoCharacter()
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -51,7 +51,7 @@ AEasySteamSessionDemoCharacter::AEasySteamSessionDemoCharacter()
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
 
-void AEasySteamSessionDemoCharacter::BeginPlay()
+void AThirdPartSessionDemoCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
@@ -69,7 +69,7 @@ void AEasySteamSessionDemoCharacter::BeginPlay()
 //////////////////////////////////////////////////////////////////////////
 // Input
 
-void AEasySteamSessionDemoCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
+void AThirdPartSessionDemoCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	// Set up action bindings
 	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent)) {
@@ -79,16 +79,16 @@ void AEasySteamSessionDemoCharacter::SetupPlayerInputComponent(class UInputCompo
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
 
 		//Moving
-		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AEasySteamSessionDemoCharacter::Move);
+		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AThirdPartSessionDemoCharacter::Move);
 
 		//Looking
-		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AEasySteamSessionDemoCharacter::Look);
+		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AThirdPartSessionDemoCharacter::Look);
 
 	}
 
 }
 
-void AEasySteamSessionDemoCharacter::Move(const FInputActionValue& Value)
+void AThirdPartSessionDemoCharacter::Move(const FInputActionValue& Value)
 {
 	// input is a Vector2D
 	FVector2D MovementVector = Value.Get<FVector2D>();
@@ -111,7 +111,7 @@ void AEasySteamSessionDemoCharacter::Move(const FInputActionValue& Value)
 	}
 }
 
-void AEasySteamSessionDemoCharacter::Look(const FInputActionValue& Value)
+void AThirdPartSessionDemoCharacter::Look(const FInputActionValue& Value)
 {
 	// input is a Vector2D
 	FVector2D LookAxisVector = Value.Get<FVector2D>();

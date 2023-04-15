@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class EasySteamSessionDemo : ModuleRules
+public class ThirdPartSessionDemo : ModuleRules
 {
-	public EasySteamSessionDemo(ReadOnlyTargetRules Target) : base(Target)
+	public ThirdPartSessionDemo(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
@@ -13,7 +13,7 @@ public class EasySteamSessionDemo : ModuleRules
 
         PrivateDependencyModuleNames.AddRange(new string[]
         {
-            "EasySteamSession"
+            "ThirdPartSession"
         });
 
     }

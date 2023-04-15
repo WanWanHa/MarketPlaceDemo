@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "EasySteamSessionDemo",
+			"Name": "ThirdPartSessionDemo",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
@@ -19,7 +19,7 @@
 			]
 		},
 		{
-			"Name": "EasySteamSession",
+			"Name": "ThirdPartSession",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c842374dbed84135a5376fbd5f63cf6e"
 		}

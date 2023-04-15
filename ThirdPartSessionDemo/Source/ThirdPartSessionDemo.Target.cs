@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class EasySteamSessionDemoTarget : TargetRules
+public class ThirdPartSessionDemoTarget : TargetRules
 {
-	public EasySteamSessionDemoTarget(TargetInfo Target) : base(Target)
+	public ThirdPartSessionDemoTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
-		ExtraModuleNames.Add("EasySteamSessionDemo");
+		ExtraModuleNames.Add("ThirdPartSessionDemo");
 	}
 }

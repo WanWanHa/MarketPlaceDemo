@@ -1,10 +1,10 @@
 // Copyright (c) 2023, Hong Gu <guhong.usa@gmail.com>. All Rights Reserved.
 
-#include "EasySteamSessionDemoGameMode.h"
-#include "EasySteamSessionDemoCharacter.h"
+#include "ThirdPartSessionDemoGameMode.h"
+#include "ThirdPartSessionDemoCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
-AEasySteamSessionDemoGameMode::AEasySteamSessionDemoGameMode()
+AThirdPartSessionDemoGameMode::AThirdPartSessionDemoGameMode()
 {
 	// set default pawn class to our Blueprinted character
 	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnBPClass(TEXT("/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter"));
