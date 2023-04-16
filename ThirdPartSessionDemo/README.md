@@ -23,5 +23,11 @@ DefaultEngine.ini:
 ### Find Session Callback,  查找会话结果回调   
 ![image](https://user-images.githubusercontent.com/8192020/231936048-74f198d2-0f73-479c-a1c6-de8343d0d498.png)
 
+## some interface  for C++ code   
+Bind Delegate:   
+![image](https://user-images.githubusercontent.com/8192020/232330448-3f5d257e-c6bf-4375-a8d3-0ceae5055175.png)   
+some functions you may need to implemented like below:   
+![image](https://user-images.githubusercontent.com/8192020/232330487-d8162ba2-da53-49c0-8938-772aa988ee3a.png)
+
 
 
