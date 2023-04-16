@@ -11,8 +11,6 @@ class AThirdPartSessionDemoGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
-public:
-	AThirdPartSessionDemoGameMode();
 };
 
 
