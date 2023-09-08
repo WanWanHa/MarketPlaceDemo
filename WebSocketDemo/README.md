@@ -11,12 +11,12 @@ and run this server
 
 # step 2, Create Websocket,    
 you can use CreateCustomWebSocket to create a websocket, and it will init steps for you, but you can still create an attribute of CustomWebSocket, and use it for any operations   
-fill the target server address here:   
-![image](https://user-images.githubusercontent.com/8192020/231793430-082f015a-919b-4dd7-b65c-dc98ee66b9dd.png)   
-you can set token parameter here:   
-![image](https://user-images.githubusercontent.com/8192020/231793574-cda7bfb8-1ba4-4a4f-88c6-2ea957c714af.png)   
-add this and fill the token value   :
-![image](https://user-images.githubusercontent.com/8192020/231793701-ad2f3c4f-d0a8-451c-aeaa-ce179a09cff5.png)   
+fill the target server address here:    
+![image](https://user-images.githubusercontent.com/8192020/231793430-082f015a-919b-4dd7-b65c-dc98ee66b9dd.png)    
+you can set token parameter here:    
+![image](https://user-images.githubusercontent.com/8192020/231793574-cda7bfb8-1ba4-4a4f-88c6-2ea957c714af.png)    
+add this and fill the token value:   
+![image](https://user-images.githubusercontent.com/8192020/231793701-ad2f3c4f-d0a8-451c-aeaa-ce179a09cff5.png)    
 and you can use the parameter as your web server required   
 
 
