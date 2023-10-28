@@ -7,7 +7,7 @@ public class WanWanHaGrpcDemoTarget : TargetRules
 {
 	public WanWanHaGrpcDemoTarget(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Editor;
+		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 		ExtraModuleNames.Add("WanWanHaGrpcDemo");
