@@ -12,7 +12,7 @@ in Tools folder:
 please download Tools folder in this link :[DOWNLOAD LINK下载链接](https://github.com/WanWanHa/MarketPlacePluginsDemo/tree/master/WanWanHaGrpcDemo/Plugins/Tools)    
 use this bat script command:   
 ```cpp
-.\generate_code.cmd missile.proto D:\OutSource\GRpc\Project_gRPC\Plugins\TurboLink\Tools
+.\generate_code.cmd missile.proto D:\OutSource\GRpc\Project_gRPC\Plugins\WanWanHaGrpc\Tools
 ```
 and this cmd script is in this [LINK](https://github.com/WanWanHa/MarketPlacePluginsDemo/blob/master/WanWanHaGrpcDemo/Plugins/Tools/generate_code.cmd)
 after this executed, two folder will be generated:   
