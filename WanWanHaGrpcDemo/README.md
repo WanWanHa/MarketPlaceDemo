@@ -2,19 +2,22 @@
 
 [Video Link](https://youtu.be/Ts6LvN3FVbE)  
 [视频教程](https://www.bilibili.com/video/BV1qN4y1678H/)  
-[虚幻商场插件 链接]()  
-[LINK for plugin in Unreal Market]()  
+[虚幻商场插件 链接](https://www.unrealengine.com/marketplace/en-US/product/gprc-protobuf-rpc)  
+[LINK for plugin in Unreal Market](https://www.unrealengine.com/marketplace/en-US/product/gprc-protobuf-rpc)  
 
 # step 1, generate code for proto
+and protoc-gen-wwhgrpc.exe and   generate_code.cmd script are in Tools folder, generate_code.cmd script will call this protoc-gen-wwhgrpc.exe  to generated reflection code for proto file
 in Tools folder:   
 ![image](https://github.com/WanWanHa/MarketPlacePluginsDemo/assets/8192020/bd5a6b11-9a6d-416b-b41c-845e5d18caf7)   
-
+please download Tools folder in this link :[DOWNLOAD LINK下载链接](https://github.com/WanWanHa/MarketPlacePluginsDemo/tree/master/WanWanHaGrpcDemo/Plugins/Tools)    
 use this bat script command:   
 ```cpp
-.\generate_code.cmd missile.proto D:\OutSource\GRpc\Project_gRPC\Plugins\TurboLink\Tools
+.\generate_code.cmd missile.proto D:\OutSource\GRpc\Project_gRPC\Plugins\WanWanHaGrpc\Tools
 ```
+and this cmd script is in this [LINK](https://github.com/WanWanHa/MarketPlacePluginsDemo/blob/master/WanWanHaGrpcDemo/Plugins/Tools/generate_code.cmd)
 after this executed, two folder will be generated:   
 ![image](https://github.com/WanWanHa/MarketPlacePluginsDemo/assets/8192020/fac1a016-2f4e-4748-8385-5c2e3697c7ad)   
+and please download this exe in this [LINK](https://github.com/WanWanHa/MarketPlacePluginsDemo/blob/master/WanWanHaGrpcDemo/Plugins/Tools/protoc-gen-wwhgrpc.exe)   
 
 # step 2, copy generated two folder to your Plugins/WanWanHaGrpc/Source/ Folder   
 ![image](https://github.com/WanWanHa/MarketPlacePluginsDemo/assets/8192020/e1a22b90-5a9e-4ba3-9583-8fcc655e0a8e)    
