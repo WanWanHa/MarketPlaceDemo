@@ -2,8 +2,8 @@
 
 [Video Link](https://youtu.be/Ts6LvN3FVbE)  
 [视频教程](https://www.bilibili.com/video/BV1qN4y1678H/)  
-[ 链接](https://www.buymeacoffee.com/wanwanha/e/192862)  
-[LINK for plugin](https://www.buymeacoffee.com/wanwanha/e/192862)  
+[ 链接 LINK](https://www.buymeacoffee.com/wanwanha/e/192862)  
+[LINK for plugin](https://www.patreon.com/WanWanHa/shop/gprc-protobuf-rpc-ue4-5-xu-huan-4-5-cha-83050)  
 
 # step 1, generate code for proto
 and protoc-gen-wwhgrpc.exe and   generate_code.cmd script are in Tools folder, generate_code.cmd script will call this protoc-gen-wwhgrpc.exe  to generated reflection code for proto file
