@@ -3,7 +3,14 @@
 [Video Link](https://youtu.be/PXeCDExed7k)  
 [视频教程](https://www.bilibili.com/video/BV1vA411C7dc/)  
 [虚幻商场插件 链接](https://www.unrealengine.com/marketplace/zh-CN/product/VehiclePhysNetwork)  
-[LINK for plugin in Unreal Market](https://www.unrealengine.com/marketplace/zh-CN/product/VehiclePhysNetwork)  
+[LINK for plugin in Unreal Market](https://www.unrealengine.com/marketplace/zh-CN/product/VehiclePhysNetwork)    
+
+1: 使得载具的移动，碰撞有物理模拟的效果，并且使用了 Chaos 物理引擎的版本   
+1: Make the movement and collision of the vehicle have the effect of physical simulation, and use the Chaos physics engine version   
+2：保持已有的载具移动同步的效果， 常规的移动效果， 比如速度和移动方向等，并且在发生碰撞的时候， 以服务器的模拟的效果为准， 同步给其他的客户端， 使得所有的客户端拥有一样的物理碰撞效果   
+2: Maintain the effect of existing vehicle movement synchronization, conventional movement effects, such as speed and movement direction, and when a collision occurs, the simulated effect of the server shall prevail and be synchronized to other clients, so that all The client has the same physical collision effect   
+3: 这是一个自定义 MovementComponent 实现的方案， 你可以模仿其中的操作， 实现其他类型的MovementComponent的效果   
+3: This is a solution to customize MovementComponent implementation. You can imitate its operations and achieve the effects of other types of MovementComponents.    
 
 # step 1, if you use 5.3 or later version you can inherited from AWheeledVehiclePawn but use this UVehiclePhysNetworkMovementComponent instead
 in c++ code, just use UVehiclePhysNetworkMovementComponent to instead the default VehicleMovementComponent    
