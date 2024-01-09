@@ -1,0 +1,15 @@
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+Build
+NoCommitResource
+*.sdf
+*.sln
+*.suo
+*.opensdf
+*.opendb
+*.db
+/docs/sphinx-build-result
+/.vs
+docs/_build
