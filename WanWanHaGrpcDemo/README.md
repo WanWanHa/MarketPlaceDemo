@@ -2,7 +2,7 @@
 
 [Video Link](https://youtu.be/Ts6LvN3FVbE)  
 [视频教程](https://www.bilibili.com/video/BV1qN4y1678H/)  
-[ 链接 LINK](https://www.buymeacoffee.com/wanwanha/e/192862)  
+[ 链接 LINK](https://www.unrealengine.com/marketplace/zh-CN/product/gprc-protobuf-rpc)  
 [LINK for plugin](https://www.unrealengine.com/marketplace/zh-CN/product/gprc-protobuf-rpc)  
 
 # step 1, generate code for proto
