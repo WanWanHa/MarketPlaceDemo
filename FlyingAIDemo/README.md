@@ -1,6 +1,17 @@
-# ThirdPartSessionDemo   
-Create Session through Steam Platform   
-通过Steam 平台创建多人联机会话, 建立房间   多人游戏   
+# FlyingAIDemo   
+Fly Control AI   
+飞行控制AI 相关   
+Core Features：  
+核心功能：   
+1: Path Finding, Navigation in Air, not use A Star algorithm， efficient algorithm suitable for game development OR other models moving projects 
+1：可以空中寻路，导航功能， 没有使用 A 星算法， 但是插件的算法更适合游戏 或者有模型相关移动项目
+2：Can find target in Air, do fly sight Perception in Air
+2：可以寻找目标, 可以在空中做视觉的感知
+3：Collision detection in the air, supporting dynamic and static objects，avoid obstacles
+3：在空中进行碰撞检测， 支持动态和静态物体，躲避障碍物
+4：Support adding flying nodes in the behavior tree for easy use
+4：支持在行为树中，添加飞行节点，方便使用
+
 ## Step 1: modify the DefaultEngine.ini to use Steam Online SubSystem Session (修改 DefaultEngine.ini 文件, 来使用 Steam平台的 Online SubSystem )   
 add/modify the configuration code below in your DefaultEngine.ini file:   
 ```
