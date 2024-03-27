@@ -13,3 +13,10 @@ NoCommitResource
 /docs/sphinx-build-result
 /.vs
 docs/_build
+# Compiled source files for the engine to use
+Intermediate/*
+Plugins/*/Intermediate/*
+
+# Cache files for the editor to use
+DerivedDataCache/*
+/Plugins/VehiclePhysNetwork
