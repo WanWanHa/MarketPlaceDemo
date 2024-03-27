@@ -1,4 +1,4 @@
-// // Copyright WanWanHa NetWork Technology, LLC. All Rights Reserved.
+// Copyright WanWanHa NetWork Technology, LLC. All Rights Reserved.
 
 
 #include "ThirdPartSessionGameMode.h"
