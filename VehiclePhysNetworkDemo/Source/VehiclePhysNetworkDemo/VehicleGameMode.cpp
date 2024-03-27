@@ -1,4 +1,4 @@
-// Copyright (c) 2024, Hong Gu <guhong.usa@gmail.com>. All Rights Reserved.
+// Copyright WanWanHa NetWork Technology, LLC. All Rights Reserved.
 
 
 #include "VehicleGameMode.h"

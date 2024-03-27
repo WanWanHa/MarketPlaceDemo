@@ -1,4 +1,4 @@
-// Copyright (c) 2023, Hong Gu <guhong.usa@gmail.com>. All Rights Reserved.
+// Copyright WanWanHa NetWork Technology, LLC. All Rights Reserved.
 
 #include "PrimitiveDrawDemo.h"
 #include "Modules/ModuleManager.h"
