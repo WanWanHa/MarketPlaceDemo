@@ -61,5 +61,8 @@ it is used like other nodes in Behavior Tree
 3: is obstacles, and path finding should avoid this obstacles  
 ![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/504c106d-b885-4221-a790-8011fca874d4)     
 
+## Step 3: Dynamic generate Navigation, path    
+first, reset target for self    
+second, call this function: StopCurrentNavigation in FlyingAIController:   
 
 
