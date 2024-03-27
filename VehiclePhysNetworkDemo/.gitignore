@@ -13,3 +13,6 @@ NoCommitResource
 /docs/sphinx-build-result
 /.vs
 docs/_build
+/Plugins/VehiclePhysNetwork
+.vsconfig
+DerivedDataCache/*
