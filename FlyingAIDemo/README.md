@@ -1,4 +1,8 @@
 # FlyingAIDemo   
+[虚幻商场插件 链接](https://www.unrealengine.com/marketplace/en-US/product/flyingai)  
+[LINK for plugin in Unreal Market](https://www.unrealengine.com/marketplace/en-US/product/flyingai)  
+[视频教程 1 链接](https://www.bilibili.com/video/BV1um421n75k/)  
+[video tutorial 1 LINK](https://youtu.be/KbilJDFAxOA)  
 Fly Control AI   
 飞行控制AI 相关   
 Core Features：  
