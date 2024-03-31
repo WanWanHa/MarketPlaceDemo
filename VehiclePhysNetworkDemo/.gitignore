@@ -13,3 +13,10 @@ NoCommitResource
 /docs/sphinx-build-result
 /.vs
 docs/_build
+
+# Cache files for the editor to use
+DerivedDataCache/*
+/Plugins/VehiclePhysNetwork
+
+.vsconfig
+Plugins/*
