@@ -3,8 +3,39 @@
 
 #include "MenuSetupWidget.h"
 
+#include "SessionInterface.h"
 
 
+
+void UMenuSetupWidget::FindSession(const UObject* WorldContextObject)
+{
+	ISessionInterface::FindSession(WorldContextObject);
+}
+
+void UMenuSetupWidget::JoinSession(const UObject* WorldContextObject, const int32 SessionID)
+{
+	ISessionInterface::JoinSession(WorldContextObject, SessionID);
+}
+
+void UMenuSetupWidget::DestroySession(const UObject* WorldContextObject)
+{
+	ISessionInterface::DestroySession(WorldContextObject);
+}
+
+void UMenuSetupWidget::CreateSession(const UObject* WorldContextObject)
+{
+	ISessionInterface::CreateSession(WorldContextObject);
+}
+
+void UMenuSetupWidget::StartSession(const FName& SessionName, const UObject* WorldContextObject)
+{
+	ISessionInterface::StartSession(SessionName, WorldContextObject);
+}
+
+void UMenuSetupWidget::LoginEOS(const FString& Id, const FString& Token, const FString& Type, const UObject* WorldContextObject)
+{
+	ISessionInterface::LoginEOS(Id, Token, Type, WorldContextObject);
+}
 
 void UMenuSetupWidget::MenuSetup()
 {
@@ -47,12 +78,19 @@ bool UMenuSetupWidget::Initialize()
 {
 	if (!Super::Initialize()) return false;
 
+
 	return true;
+}
+
+void UMenuSetupWidget::NativeConstruct()
+{
+	Super::NativeConstruct();
+
+	ISessionInterface::InitSession(GetWorld());
 }
 
 void UMenuSetupWidget::NativeDestruct()
 {
-	MenuTearDown();
-
 	Super::NativeDestruct();
+	MenuTearDown();
 }
