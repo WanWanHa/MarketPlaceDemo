@@ -17,9 +17,9 @@ void UMenuSetupWidget::JoinSession(const UObject* WorldContextObject, const int3
 	ISessionInterface::JoinSession(WorldContextObject, SessionID);
 }
 
-void UMenuSetupWidget::DestroySession(const UObject* WorldContextObject)
+void UMenuSetupWidget::DestroySession(const UObject* WorldContextObject, const FName& SessionName)
 {
-	ISessionInterface::DestroySession(WorldContextObject);
+	ISessionInterface::DestroySession(WorldContextObject, SessionName);
 }
 
 void UMenuSetupWidget::CreateSession(const UObject* WorldContextObject)

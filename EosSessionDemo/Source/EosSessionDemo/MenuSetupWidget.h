@@ -25,7 +25,7 @@ public:
 	virtual void JoinSession(const UObject* WorldContextObject, const int32 SessionID) override;
 
 	UFUNCTION(BlueprintCallable)
-	virtual void DestroySession(const UObject* WorldContextObject) override;
+	virtual void DestroySession(const UObject* WorldContextObject, const FName& SessionName) override;
 
 	UFUNCTION(BlueprintCallable)
 	virtual void CreateSession(const UObject* WorldContextObject) override;
