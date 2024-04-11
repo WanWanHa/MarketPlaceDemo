@@ -2,21 +2,58 @@
 
 
 #include "EosSessionGameMode.h"
+
 #include "GameFramework/GameStateBase.h"
+#include "Interfaces/OnlineIdentityInterface.h"
+#include "Interfaces/OnlineSessionInterface.h"
+#include "OnlineSubsystemUtils.h"
+#include "OnlineSubsystem.h"
+
 
 
 void AEosSessionGameMode::PostLogin(APlayerController* NewPlayer)
 {
 	Super::PostLogin(NewPlayer);
 
-	//int32 NumOfPlayers = GameState.Get()->PlayerArray.Num();
-	//if (NumOfPlayers >= 2)
-	//{
-	//	UWorld* World = GetWorld();
-	//	if (World)
-	//	{
-	//		bUseSeamlessTravel = true;
-	//		World->ServerTravel(FString("/Game/ThirdPerson/Maps/Lobby?listen"));
-	//	}
-	//}
+	if (!NewPlayer)
+	{
+		return;
+	}
+
+
+	return;
+
+
+	FUniqueNetIdRepl UniqueNetIDRepl;
+	if (NewPlayer->IsLocalController())
+	{
+		ULocalPlayer* LocalPlayerRef = NewPlayer->GetLocalPlayer();
+		if (LocalPlayerRef)
+		{
+			UniqueNetIDRepl = LocalPlayerRef->GetPreferredUniqueNetId();
+		}
+		else
+		{
+			UNetConnection* RemoteNetConnectionRef = Cast<UNetConnection>(NewPlayer->Player);
+			check(IsValid(RemoteNetConnectionRef));
+			UniqueNetIDRepl = RemoteNetConnectionRef->PlayerId;
+		}
+	}
+	else
+	{
+		UNetConnection* RemoteNetConnectionRef = Cast<UNetConnection>(NewPlayer->Player);
+		check(IsValid(RemoteNetConnectionRef));
+		UniqueNetIDRepl = RemoteNetConnectionRef->PlayerId;
+	}
+
+	TSharedPtr<const FUniqueNetId> UniqueNetId = UniqueNetIDRepl.GetUniqueNetId();
+	check(UniqueNetId != nullptr);
+	IOnlineSubsystem* SubsystemRef = Online::GetSubsystem(NewPlayer->GetWorld());
+	IOnlineSessionPtr SessionRef = SubsystemRef->GetSessionInterface();
+	bool bRegistrationSuccess = SessionRef->RegisterPlayer(FName("Test Session"), *UniqueNetId, false);
+	if (bRegistrationSuccess)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Registration Successful"));
+	}
+
 }
