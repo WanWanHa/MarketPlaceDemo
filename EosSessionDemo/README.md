@@ -1,40 +1,38 @@
 # EosSessionDemo   
-Create Session through Steam Platform   
-通过Steam 平台创建多人联机会话, 建立房间   多人游戏   
-## Step 1: modify the DefaultEngine.ini to use Steam Online SubSystem Session (修改 DefaultEngine.ini 文件, 来使用 Steam平台的 Online SubSystem )   
+Create Session through EOS Epic Online Subsystem Platform   
+通过 EOS Epic Online Subsystem 平台创建多人联机会话, 建立房间   多人游戏   
+## Step 1: modify the DefaultEngine.ini to use EOS Epic Online Subsystem Session (修改 DefaultEngine.ini 文件, 来使用 EOS Epic  平台的 Online SubSystem )   
 add/modify the configuration code below in your DefaultEngine.ini file:   
 ```
-[/Script/Engine.GameEngine]
-+NetDriverDefinitions=(DefName="GameNetDriver",DriverClassName="OnlineSubsystemSteam.SteamNetDriver",DriverClassNameFallback="OnlineSubsystemUtils.IpNetDriver")
-
+[OnlineSubsystemEOS]
+bEnabled=true
+bUseSessionPresenceAttribute=True
 
 [OnlineSubsystem]
-DefaultPlatformService=Steam
+DefaultPlatformService=EOS
 
-[OnlineSubsystemSteam]
-bEnabled=true
-SteamDevAppId=480
-bInitServerOnClient=true
+[/Script/Engine.GameEngine]
++NetDriverDefinitions=(DefName="GameNetDriver",DriverClassName="OnlineSubsystemEOS.NetDriverEOS",DriverClassNameFallback="OnlineSubsystemUtils.IpNetDriver")
 
-
-[/Script/OnlineSubsystemSteam.SteamNetDriver]
-NetConnectionClassName="OnlineSubsystemSteam.SteamNetConnection"
+[/Script/OnlineSubsystemEOS.NetDriverEOS]
+bIsUsingP2PSockets=true
 ```
 ## Step 2: Use the EosSession Plugin in you uproject file / 在你的项目中使用这个 EosSession 插件   
 ```
-{
-   "Name": "EosSession",
-   "Enabled": true,
-   "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c842374dbed84135a5376fbd5f63cf6e"
-}
+		{
+			"Name": "EosSession",
+			"Enabled": true,
+			"MarketplaceURL":          
+         "com.epicgames.launcher://ue/marketplace/product/c842374dbed84135a5376fbd5f63cf6e"
+		},
 ```      
 
 ## Step 3: use the EosSession module in you Porject.Build.cs file / 在你的 Project.build.cs 文件中使用这个 EosSession 模块:   
 ```
-  PrivateDependencyModuleNames.AddRange(new string[]
-  {
-      "EosSession"
-  });
+        PrivateDependencyModuleNames.AddRange(new string[]
+        {
+            "EosSession"
+        });
 ```
 
 ## Step 4: Bind the Callback Delegate in the consturct function or Begin Play function/ 在UI 构造函数或者其他BeginPlay的函数中, 绑定需要的委托回调:   
