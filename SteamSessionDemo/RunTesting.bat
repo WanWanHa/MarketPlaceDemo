@@ -4,7 +4,7 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 REM =======MAKE SURE TO ADJUST THESE PARAMETERS TO YOUR BUILD=======
 set unrealPath="C:\Program Files\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe"
 
-set myProject="D:\MarketPlace\MarketPlaceDemo-5.3\ThirdPartSessionDemo\ThirdPartSessionDemo.uproject"
+set myProject="D:\MarketPlace\MarketPlaceDemo-5.3\SteamSessionDemo\SteamSessionDemo.uproject"
 
 set map=/Game/ThirdPerson/Maps/Login
 
