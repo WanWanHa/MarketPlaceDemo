@@ -37,26 +37,31 @@ bIsUsingP2PSockets=true
 
 ## Step 4: Bind the Callback Delegate in the consturct function or Begin Play function/ 在UI 构造函数或者其他BeginPlay的函数中, 绑定需要的委托回调:   
 ### OnCreateSession,  this Delegate will be called after CreateRoomSession function Called, 这个回调将会在CreateRoomSession 函数被调用之后:   
-![image](https://user-images.githubusercontent.com/8192020/232368982-739fdeac-e894-4d69-8089-ead2bba0552c.png)     
+![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/7d42fa57-240d-437c-aeb1-42eaebaafd69)     
 ### OnFindSession, This Delegate will be called after FindSession function called, 这个回调将会在  FindRoomSession 函数被调用之后:   
-![image](https://user-images.githubusercontent.com/8192020/232369156-4997e304-a0eb-4c1b-81c0-667c4956aab8.png)   
+![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/bd291c26-b92e-499e-a5a1-90b7db89f1f4)    
 ### OnJoinSession, This Delegate will be called after JoinRoomSession Function called, 这个回调将会在 JoinRoomSession 函数被调用之后:   
-![image](https://user-images.githubusercontent.com/8192020/232369313-dd80b5dc-3bf7-47f6-85fd-3efa967927a1.png)   
+![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/b5f52750-964e-40c2-a448-eefbb4a14e6d)    
 
 ## Step 5: To Create Session in one Client PC,  here we use a button in UI with its callback function/ 创建 会话在一台机器的客户端中, 这里我们使用UI中的按钮回调来实现:   
-### this CREATE Button  /  这个 创建按钮:   
-![image](https://user-images.githubusercontent.com/8192020/232369682-58dd110b-4583-48dd-b450-326ac104377f.png)   
+### this Join Button / 这个是 登录 Epic Online Subsystem 按钮:    
+![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/c516a1b9-1fe3-484e-a225-7cb63aa92590)    
+### this CREATE Button  /  这个 创建按钮:    
+![image](https://user-images.githubusercontent.com/8192020/232369682-58dd110b-4583-48dd-b450-326ac104377f.png)     
 ### and in its callback function:   
-![image](https://user-images.githubusercontent.com/8192020/232369777-78db6b1c-d19d-419f-9cfa-e9f100ef403e.png)   
+![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/5ab0ade0-0a95-4181-8106-e82669a9e1fd)      
 ### fill the parameter with these:   
 ```
 Session Pair Key: MatchType
 Session Pair Value: FreeForAll
 ```
+
+### Login EOS first / 登录 EOS 
+![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/efed7c39-eb5d-4c58-ad91-5d09ca08c9fa)   
 ### after clicked this button, if the session is created successfully, / 在点击这个按钮之后, 如果会话会被成功创建    
-![image](https://user-images.githubusercontent.com/8192020/232370217-327c72f8-5e10-45c6-b7a4-95adf7bbd65d.png)     
+![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/4d9445f4-fd59-4950-b72b-17f646054c43)       
 ###  the client will enter new lobby level/ , 客户端会进入到新的场景:     
-![image](https://user-images.githubusercontent.com/8192020/232370295-0285fab7-0bc8-44ed-a718-1616bc84fbfa.png)   
+![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/bce1e70f-670b-44e3-8582-2fe0580bba0e)     
 
 ## Step 6: To Join Session in the other Client PC, here we use a button in UI with its callback function/ 加入会话在另一台机器客户端中进行, 这里我们用UI中的加入按钮回调实现:   
 ### this JOIN Button/ 这个 加入按钮:    
@@ -64,15 +69,9 @@ Session Pair Value: FreeForAll
 ### you can use the default parameter to fill/ 你可以使用默认的参数来加入   
 ![image](https://user-images.githubusercontent.com/8192020/232371297-7d2ab575-d4b4-495e-850e-8bc3d86a0aa4.png)   
 ### after clicked this button, if the session is found successfully,/ 在点击这个按钮之后, 如果会话被成功查找,   
-![image](https://user-images.githubusercontent.com/8192020/232370836-396422ff-fe8f-4a8f-9f3b-a7ea4a2a93e4.png)   
-### this delegate will be called / 这个回调会被调用:   
-![image](https://user-images.githubusercontent.com/8192020/232370995-5b440537-c342-40a7-b55b-225f4edf34dc.png)   
-###  we will call the JoinRoomSession to join session after we found sessions successfully/ 我们会调用 JoinRoomSession 来加入会话, 在我们发现会话成功之后:   
-![image](https://user-images.githubusercontent.com/8192020/232371206-429261f6-cd51-458e-9a72-6226e64cd89e.png)    
-###  after we join session success, client will enter into new level which the host created before / 在加入会话成功之后,  客户端会进入另一个场景, 也就是主机创建的地图    
-![image](https://user-images.githubusercontent.com/8192020/232371731-25c7ef3f-633f-41a5-99d9-6ed5b8327465.png)   
-### we can see the old client before  / 我们可以看到之前的客户端:   
-![image](https://user-images.githubusercontent.com/8192020/232372012-a9a8ad20-8b59-454c-bb0f-e07827442b3e.png)
+![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/84b9661c-f9a0-4cae-90dd-4e6cee907eda)   
+   
+
 
 
 
