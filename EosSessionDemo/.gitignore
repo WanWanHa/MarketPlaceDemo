@@ -76,3 +76,5 @@ DerivedDataCache/*
 
 .vsconfig
 Plugins/
+DerivedDataCache/
+Binaries/
