@@ -1,4 +1,4 @@
-// Copyright WanWanHa NetWork Technology, LLC. All Rights Reserved.
+// Copyright (c) 2024,  WanWanHa NetWork Technology, LLC. All Rights Reserved.
 
 
 #include "MenuSetupWidget.h"
