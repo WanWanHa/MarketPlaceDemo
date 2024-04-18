@@ -1,4 +1,4 @@
-# ThirdPartSessionDemo   
+# SteamSessionDemo   
 Create Session through Steam Platform   
 通过Steam 平台创建多人联机会话, 建立房间   多人游戏   
 ## Step 1: modify the DefaultEngine.ini to use Steam Online SubSystem Session (修改 DefaultEngine.ini 文件, 来使用 Steam平台的 Online SubSystem )   
@@ -20,20 +20,20 @@ bInitServerOnClient=true
 [/Script/OnlineSubsystemSteam.SteamNetDriver]
 NetConnectionClassName="OnlineSubsystemSteam.SteamNetConnection"
 ```
-## Step 2: Use the ThirdPartSession Plugin in you uproject file / 在你的项目中使用这个 ThirdPartSession 插件   
+## Step 2: Use the SteamSession Plugin in you uproject file / 在你的项目中使用这个 SteamSession 插件   
 ```
 {
-   "Name": "ThirdPartSession",
+   "Name": "SteamSession",
    "Enabled": true,
    "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c842374dbed84135a5376fbd5f63cf6e"
 }
 ```      
 
-## Step 3: use the ThirdPartSession module in you Porject.Build.cs file / 在你的 Project.build.cs 文件中使用这个 ThirdPartSession 模块:   
+## Step 3: use the SteamSession module in you Porject.Build.cs file / 在你的 Project.build.cs 文件中使用这个 SteamSession 模块:   
 ```
   PrivateDependencyModuleNames.AddRange(new string[]
   {
-      "ThirdPartSession"
+      "SteamSession"
   });
 ```
 

@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "ThirdPartSessionDemo",
+			"Name": "SteamSessionDemo",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
@@ -23,7 +23,7 @@
 			]
 		},
 		{
-			"Name": "ThirdPartSession",
+			"Name": "SteamSession",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c842374dbed84135a5376fbd5f63cf6e"
 		}

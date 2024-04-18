@@ -1,11 +1,11 @@
 // Copyright WanWanHa NetWork Technology, LLC. All Rights Reserved.
 
 
-#include "ThirdPartSessionGameMode.h"
+#include "SteamSessionGameMode.h"
 #include "GameFramework/GameStateBase.h"
 
 
-void AThirdPartSessionGameMode::PostLogin(APlayerController* NewPlayer)
+void ASteamSessionGameMode::PostLogin(APlayerController* NewPlayer)
 {
 	Super::PostLogin(NewPlayer);
 

@@ -72,7 +72,11 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-/Plugins/ThirdPartSession
+/Plugins/RestfulClient
 
 .vsconfig
 Plugins/*
+DerivedDataCache/
+Binaries/
+Saved/
+Intermediate/
