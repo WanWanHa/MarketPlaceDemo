@@ -5,6 +5,11 @@
 [ 链接 LINK](https://www.unrealengine.com/marketplace/zh-CN/product/gprc-protobuf-rpc)  
 [LINK for plugin](https://www.unrealengine.com/marketplace/zh-CN/product/gprc-protobuf-rpc)  
 
+
+# step 0, download Thirdpart lib and copy them to folder    
+[download LINK](https://github.com/WanWanHa/MarketPlaceDemo/releases/tag/0.01)    
+![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/24a189db-4a78-4a67-beba-69801059f906)      
+
 # step 1, generate code for proto
 and protoc-gen-wwhgrpc.exe and   generate_code.cmd script are in Tools folder, generate_code.cmd script will call this protoc-gen-wwhgrpc.exe  to generated reflection code for proto file
 in Tools folder:   
