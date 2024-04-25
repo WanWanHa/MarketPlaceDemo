@@ -74,3 +74,6 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 /Plugins/FileDownloader
 .vsconfig
+Intermediate
+Saved
+Binaries

@@ -8,7 +8,8 @@ public class ImageToolsDemoEditorTarget : TargetRules
 	public ImageToolsDemoEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "ImageToolsDemo" } );
+        DefaultBuildSettings = BuildSettingsVersion.Latest;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
+        ExtraModuleNames.AddRange( new string[] { "ImageToolsDemo" } );
 	}
 }

@@ -8,7 +8,8 @@ public class RestfulAPIDemoTarget : TargetRules
 	public RestfulAPIDemoTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("RestfulAPIDemo");
+        DefaultBuildSettings = BuildSettingsVersion.Latest;
+        IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
+        ExtraModuleNames.Add("RestfulAPIDemo");
 	}
 }

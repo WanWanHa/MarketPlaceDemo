@@ -20,10 +20,6 @@ void AEosSessionGameMode::PostLogin(APlayerController* NewPlayer)
 		return;
 	}
 
-
-	return;
-
-
 	FUniqueNetIdRepl UniqueNetIDRepl;
 	if (NewPlayer->IsLocalController())
 	{

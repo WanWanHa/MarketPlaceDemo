@@ -74,3 +74,8 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 /Plugins/WanWanHaGrpc
 .vsconfig
+
+Intermediate
+Saved
+Binaries
+DerivedDataCache

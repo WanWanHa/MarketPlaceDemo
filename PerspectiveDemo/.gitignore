@@ -82,3 +82,8 @@ DerivedDataCache/*
 
 # Rider user specific files
 .idea/
+
+Intermediate
+Saved
+Binaries
+DerivedDataCache

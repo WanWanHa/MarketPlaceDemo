@@ -18,3 +18,7 @@ docs/_build
 DerivedDataCache/*
 /Plugins/VehiclePhysNetwork
 .vsconfig
+Intermediate
+Saved
+Binaries
+DerivedDataCache

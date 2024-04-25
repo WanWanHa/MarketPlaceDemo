@@ -75,3 +75,7 @@ DerivedDataCache/*
 /Plugins/PrimitiveDraw
 
 .vsconfig
+Intermediate
+Saved
+Binaries
+DerivedDataCache
