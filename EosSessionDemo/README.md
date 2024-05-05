@@ -1,3 +1,8 @@
+[虚幻商场插件 链接](https://www.unrealengine.com/marketplace/en-US/product/eossession)  
+[LINK for plugin in Unreal Market](https://www.unrealengine.com/marketplace/en-US/product/eossession)  
+[视频教程 1 链接](https://www.bilibili.com/video/BV1UC411E7wT/)  
+[video tutorial 1 LINK](https://youtu.be/-clv9tRyyYE)  
+
 # EosSessionDemo   
 Create Session through EOS Epic Online Subsystem Platform   
 通过 EOS Epic Online Subsystem 平台创建多人联机会话, 建立房间   多人游戏   
