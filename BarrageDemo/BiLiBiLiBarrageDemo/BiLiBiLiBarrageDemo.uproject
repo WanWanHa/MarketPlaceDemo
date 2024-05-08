@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "Networking",
+	"Description": "Get Barrage From BiLiBiLi",
+	"CreatedBy": "WanWanHa Network Technology LLC.",
+	"CreatedByURL": "https://www.wanwanha.com",	
+	"Modules": [
+		{
+			"Name": "BiLiBiLiBarrageDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "BiLiBiLiBarrage",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/4d130692de0c4d93a4dc04ad5b01fc40"
+		}
+	]
+}
