@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "SerialCommunicationDemo",
+			"Name": "SerialPortDemo",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

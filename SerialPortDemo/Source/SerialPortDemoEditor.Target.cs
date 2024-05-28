@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class SerialCommunicationDemoTarget : TargetRules
+public class SerialPortDemoEditorTarget : TargetRules
 {
-	public SerialCommunicationDemoTarget( TargetInfo Target) : base(Target)
+	public SerialPortDemoEditorTarget( TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Game;
+		Type = TargetType.Editor;
         DefaultBuildSettings = BuildSettingsVersion.Latest;
         IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
-        ExtraModuleNames.AddRange( new string[] { "SerialCommunicationDemo" } );
+        ExtraModuleNames.AddRange( new string[] { "SerialPortDemo" } );
 	}
 }

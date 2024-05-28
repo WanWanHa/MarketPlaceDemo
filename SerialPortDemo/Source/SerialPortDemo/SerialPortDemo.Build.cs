@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class SerialCommunicationDemo : ModuleRules
+public class SerialPortDemo : ModuleRules
 {
-	public SerialCommunicationDemo(ReadOnlyTargetRules Target) : base(Target)
+	public SerialPortDemo(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

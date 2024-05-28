@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "SerialCommunicationDemoGameModeBase.generated.h"
+#include "SerialPortDemoGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class SERIALCOMMUNICATIONDEMO_API ASerialCommunicationDemoGameModeBase : public AGameModeBase
+class SERIALPORTDEMO_API ASerialPortDemoGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
