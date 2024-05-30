@@ -1,3 +1,4 @@
+同时支持多个串口通信使用，Support multi serial Port Communication at the same time    
 # How To Get Plugin 如何获取插件
 [虚幻商场插件 链接](https://www.unrealengine.com/marketplace/zh-CN/product/image-tools)  
 [LINK for plugin in Unreal Market](https://www.unrealengine.com/marketplace/zh-CN/product/image-tools)  
@@ -20,3 +21,5 @@ only one parameter you need to fill is Port Number, other parameter you can use 
 we print data received from serial Port, each time call back function, it will tell you these data are from which port exactly    
 ![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/20e02994-3a66-4e09-ada9-12bd60675f66)    
 
+通信成功输出， 结果  Output Result of serial port communication:    
+![image](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/fa4570f6-c77f-4ff4-a829-a18166c330ee)    
