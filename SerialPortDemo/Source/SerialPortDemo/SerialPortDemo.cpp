@@ -1,4 +1,4 @@
-// Copyright 2024 (c) WanWanHa NetWork Technology, LLC, All rights reserved.
+// Copyright 2024 (c) WanWanHa NetWork Technology, LLC. All rights reserved.
 
 #include "SerialPortDemo.h"
 #include "Modules/ModuleManager.h"
