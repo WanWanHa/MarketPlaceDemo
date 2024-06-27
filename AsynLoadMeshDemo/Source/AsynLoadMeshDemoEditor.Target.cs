@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class Load3DFileDemoTarget : TargetRules
+public class AsynLoadMeshDemoEditorTarget : TargetRules
 {
-	public Load3DFileDemoTarget( TargetInfo Target) : base(Target)
+	public AsynLoadMeshDemoEditorTarget( TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Game;
+		Type = TargetType.Editor;
         DefaultBuildSettings = BuildSettingsVersion.Latest;
         IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
-        ExtraModuleNames.AddRange( new string[] { "Load3DFileDemo" } );
+        ExtraModuleNames.AddRange( new string[] { "AsynLoadMeshDemo" } );
 	}
 }
