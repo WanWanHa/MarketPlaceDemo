@@ -5,14 +5,14 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "AsynLoadMeshDemo",
+			"Name": "AsyncLoadMeshDemo",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
 		{
-			"Name": "AsynLoadMesh",
+			"Name": "AsyncLoadMesh",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/3bf2df93d5d34d95b68ba82eca0ca7e7"
 		}

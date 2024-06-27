@@ -2,14 +2,14 @@
 
 using UnrealBuildTool;
 
-public class AsynLoadMeshDemo : ModuleRules
+public class AsyncLoadMeshDemo : ModuleRules
 {
-	public AsynLoadMeshDemo(ReadOnlyTargetRules Target) : base(Target)
+	public AsyncLoadMeshDemo(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "AsynLoadMesh" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "AsyncLoadMesh" });
 	}
 }
