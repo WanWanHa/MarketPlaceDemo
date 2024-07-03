@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class SerialPortDemoEditorTarget : TargetRules
+public class AsyncLoadMeshDemoEditorTarget : TargetRules
 {
-	public SerialPortDemoEditorTarget( TargetInfo Target) : base(Target)
+	public AsyncLoadMeshDemoEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
         DefaultBuildSettings = BuildSettingsVersion.Latest;
         IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
-        ExtraModuleNames.AddRange( new string[] { "SerialPortDemo" } );
+        ExtraModuleNames.AddRange( new string[] { "AsyncLoadMeshDemo" } );
 	}
 }
