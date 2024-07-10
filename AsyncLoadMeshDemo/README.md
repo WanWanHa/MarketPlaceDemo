@@ -17,3 +17,8 @@ GetImageCategoryFromImageFile:
 
 ## 3: support  async load , using multi thread       
 ## 3: 支持 多线程异步加载     
+![QQ_1720633838309](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/61b329e3-0abb-4749-a06c-7f3cd37e92d6)    
+configure files to load     
+![QQ_1720633865061](https://github.com/WanWanHa/MarketPlaceDemo/assets/8192020/e92e1948-c770-4290-b71c-58a62bbeb503)    
+
+
