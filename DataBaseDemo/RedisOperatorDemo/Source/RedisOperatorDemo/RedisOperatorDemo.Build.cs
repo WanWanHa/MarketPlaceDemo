@@ -6,7 +6,12 @@ public class RedisOperatorDemo : ModuleRules
 {
 	public RedisOperatorDemo(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+        if (Target.Configuration != UnrealTargetConfiguration.Shipping)
+        {
+            OptimizeCode = CodeOptimization.Never;
+        }
+
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
 
