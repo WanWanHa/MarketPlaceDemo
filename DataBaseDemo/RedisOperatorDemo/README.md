@@ -2,10 +2,12 @@
 operations for redis:      
 1：异步多线程方式操作Redis, 效率高，不会阻塞主线程     
 2：接口简单， 容易使用     
-3：不仅仅支持常用 SET/GET/AUTH 命令，也支持 SUBSCRIBE/PUBLISH 等等    
+3：不仅仅支持常用 SET/GET/AUTH 命令，也支持 SUBSCRIBE/PUBLISH 等等
+4：同时支持这些命令支持，不阻塞      
 1: Asynchronous multi-threaded operation of Redis, high efficiency, will not block the main thread    
 2: Simple interface, easy to use    
 3: Not only supports common SET/GET/AUTH commands, but also supports PUBLISH/PUBLISH, etc.     
+4：do these operations at the same time without any block    
 
 plugin link:   
 [虚幻商场](https://www.unrealengine.com/marketplace/zh-CN/product/redisoperator)  
@@ -24,13 +26,16 @@ use original Unreal Engine Multi Thread Not STL
 相关接口 :     
 some interface ：    
 1: connect:   
-![image](https://github.com/user-attachments/assets/776a0097-4494-4747-8ade-f451aa00f573)   
+![image](https://github.com/user-attachments/assets/fa9aa035-1f6e-4c2f-9c8f-f1163cb22522)     
+   
 
 2: auth:     
-![image](https://github.com/user-attachments/assets/87e0b1b8-c211-4d3b-b65a-8955424b42be)    
+![image](https://github.com/user-attachments/assets/1bfd6be4-9efb-4430-9aa8-982f256f301a)    
 
 3: set/get:    
-![image](https://github.com/user-attachments/assets/72874791-702e-412c-91a9-36099202f9cb)     
+![image](https://github.com/user-attachments/assets/003513d2-c37a-4598-9c77-215573cc2c14)      
+     
     
 4: sub/pub:    
-![image](https://github.com/user-attachments/assets/b4f5ba34-96db-48cd-8abd-a5f7b0d176ef)    
+![image](https://github.com/user-attachments/assets/6553857e-4f38-4273-b8f7-54a70eaed3d9)    
+    
