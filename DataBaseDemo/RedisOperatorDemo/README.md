@@ -12,7 +12,7 @@ plugin link:
 [Unreal Market](https://www.unrealengine.com/marketplace/en-US/product/redisoperator)  
 introduction videos：   
 [B站中国](https://www.bilibili.com/video/BV1cF411A7Ex?share_source=copy_web&vd_source=74c5a7ee7e63695eed9e0f75ba7bbc88)  
-[YouTuBe](https://www.youtube.com/watch?v=OoNrNrngZdA&t=5s)  
+[YouTuBe](https://www.youtube.com/watch?v=OoNrNrngZdA&t=5s)    
 
 
 支持多线程异步，效率高 :     
