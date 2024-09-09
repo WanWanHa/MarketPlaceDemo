@@ -2,7 +2,7 @@
 operations for redis:      
 1：异步多线程方式操作Redis, 效率高，不会阻塞主线程     
 2：接口简单， 容易使用     
-3：不仅仅支持常用 SET/GET/AUTH 命令，也支持 PUBLISH/PUBLISH 等等    
+3：不仅仅支持常用 SET/GET/AUTH 命令，也支持 SUBSCRIBE/PUBLISH 等等    
 1: Asynchronous multi-threaded operation of Redis, high efficiency, will not block the main thread    
 2: Simple interface, easy to use    
 3: Not only supports common SET/GET/AUTH commands, but also supports PUBLISH/PUBLISH, etc.     
