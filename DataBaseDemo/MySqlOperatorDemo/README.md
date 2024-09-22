@@ -42,6 +42,10 @@ yes, throught last command in STEP 2, then we use Execute SQLQuery interface :
 ### also we need to parse the result use the same order of value type     
 ![image](https://github.com/user-attachments/assets/69cc40f1-40bd-40c3-82ea-695e2d789533)     
 
+## General Sample:    
+![image](https://github.com/user-attachments/assets/1bf2692a-a28a-4262-8af8-69bb38d6b8d9)    
+
+
 
 
     
