@@ -70,3 +70,12 @@ first, reset target for self
 second, call this function: StopCurrentNavigation in FlyingAIController:   
 
 
+## 2024 - 9 - 24 : Flying AI update list:    
+### 1:  多线程的引入， 效率更高，不阻塞主线程     
+### 2：添加 range box， 修改的原来的搜索范围的局限    
+### 3：整合原来的 fly to location  和 fly to actor， 本质上 这两个是类似的     
+
+### 1: The introduction of multithreading, which is more efficient and does not block the game thread     
+### 2: Added range box, which modified the original search range    
+### 3: Integrate the original fly to location and fly to actor, which are essentially similar     
+
