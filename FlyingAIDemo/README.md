@@ -70,7 +70,7 @@ first, reset target for self
 second, call this function: StopCurrentNavigation in FlyingAIController:   
 
 
-## 2024 - 9 - 24 : Flying AI update list:    
+# 2024 - 9 - 24 : Flying AI update list:    
 ### 1:  多线程的引入， 效率更高，不阻塞主线程     
 ### 2：添加 range box， 修改的原来的搜索范围的局限    
 ### 3：整合原来的 fly to location  和 fly to actor， 本质上 这两个是类似的     
@@ -78,4 +78,16 @@ second, call this function: StopCurrentNavigation in FlyingAIController:
 ### 1: The introduction of multithreading, which is more efficient and does not block the game thread     
 ### 2: Added range box, which modified the original search range    
 ### 3: Integrate the original fly to location and fly to actor, which are essentially similar     
+
+## 添加新的 range box , add new actor of range box:    
+![image](https://github.com/user-attachments/assets/54520dd8-7c56-4de6-a85b-5da931cf7fe9)      
+![image](https://github.com/user-attachments/assets/a5aa9df7-7bd9-4d20-b972-1ca8afcda0cc)      
+## 为我们的 freebird 指定这个 range box , specify this range box for our BP_freeBird:      
+![image](https://github.com/user-attachments/assets/afbd46cd-e3e2-4bd8-8b70-c025c1c94c58)     
+## 将配置的 BP_rangeBox 传递给 Aicontroller , pass the configure BP_rangeBox to our AI controller:    
+![image](https://github.com/user-attachments/assets/ab6b5976-31d1-417d-8f36-b4579afc0d10)     
+
+
+
+
 
