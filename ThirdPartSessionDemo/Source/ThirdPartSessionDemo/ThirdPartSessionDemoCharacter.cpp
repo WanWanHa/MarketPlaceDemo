@@ -1,4 +1,4 @@
-// Copyright WanWanHa NetWork Technology, LLC. All Rights Reserved.
+// Copyright 2024 (c) WanWanHa, LLC. All Rights Reserved.
 
 #include "ThirdPartSessionDemoCharacter.h"
 #include "Camera/CameraComponent.h"
