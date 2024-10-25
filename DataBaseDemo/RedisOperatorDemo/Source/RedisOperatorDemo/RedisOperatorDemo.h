@@ -1,4 +1,4 @@
-// Copyright 2024 (c) WanWanHa NetWork Technology, LLC. All Rights Reserved.
+// Copyright 2024 (c) WanWanHa, LLC. All Rights Reserved.
 
 #pragma once
 
