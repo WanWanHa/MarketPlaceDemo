@@ -1,4 +1,4 @@
-// Copyright (c) 2024,  WanWanHa NetWork Technology, LLC. All Rights Reserved.
+// // Copyright 2024 (c) WanWanHa, LLC. All Rights Reserved.
 
 using UnrealBuildTool;
 using System.Collections.Generic;
