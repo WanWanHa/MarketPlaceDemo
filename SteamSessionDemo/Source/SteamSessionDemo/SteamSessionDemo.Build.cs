@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class ThirdPartSessionDemo : ModuleRules
+public class SteamSessionDemo : ModuleRules
 {
-	public ThirdPartSessionDemo(ReadOnlyTargetRules Target) : base(Target)
+	public SteamSessionDemo(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 

@@ -10,7 +10,7 @@
  * 
  */
 UCLASS()
-class THIRDPARTSESSIONDEMO_API AThirdPartSessionGameMode : public AGameMode
+class STEAMSESSIONDEMO_API AThirdPartSessionGameMode : public AGameMode
 {
 	GENERATED_BODY()
 	

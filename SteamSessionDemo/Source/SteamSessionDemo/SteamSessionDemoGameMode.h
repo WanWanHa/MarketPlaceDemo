@@ -4,10 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "ThirdPartSessionDemoGameMode.generated.h"
+#include "SteamSessionDemoGameMode.generated.h"
 
 UCLASS(minimalapi)
-class AThirdPartSessionDemoGameMode : public AGameModeBase
+class ASteamSessionDemoGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 

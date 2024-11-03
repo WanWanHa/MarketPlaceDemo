@@ -10,7 +10,7 @@
  * 
  */
 UCLASS()
-class THIRDPARTSESSIONDEMO_API UMenuSetupWidget : public UUserWidget
+class STEAMSESSIONDEMO_API UMenuSetupWidget : public UUserWidget
 {
 	GENERATED_BODY()
 	
