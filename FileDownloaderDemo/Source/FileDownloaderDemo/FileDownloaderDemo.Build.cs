@@ -10,7 +10,12 @@ public class FileDownloaderDemo : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] {  });
+        if (Target.Configuration != UnrealTargetConfiguration.Shipping)
+        {
+            OptimizeCode = CodeOptimization.Never;
+        }
+
+        PrivateDependencyModuleNames.AddRange(new string[] {  });
 
 	}
 }
