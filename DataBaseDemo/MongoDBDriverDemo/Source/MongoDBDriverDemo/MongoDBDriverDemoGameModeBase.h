@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "MongoDBOperatorDemoGameModeBase.generated.h"
+#include "MongoDBDriverDemoGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MONGODBOPERATORDEMO_API AMongoDBOperatorDemoGameModeBase : public AGameModeBase
+class MONGODBDRIVERDEMO_API AMongoDBDriverDemoGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	

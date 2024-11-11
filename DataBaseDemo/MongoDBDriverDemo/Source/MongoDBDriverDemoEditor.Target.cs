@@ -3,12 +3,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class MongoDBOperatorDemoEditorTarget : TargetRules
+public class MongoDBDriverDemoEditorTarget : TargetRules
 {
-	public MongoDBOperatorDemoEditorTarget( TargetInfo Target) : base(Target)
+	public MongoDBDriverDemoEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "MongoDBOperatorDemo" } );
+		ExtraModuleNames.AddRange( new string[] { "MongoDBDriverDemo" } );
 	}
 }

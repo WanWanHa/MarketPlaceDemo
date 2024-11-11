@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class MongoDBOperatorDemo : ModuleRules
+public class MongoDBDriverDemo : ModuleRules
 {
-	public MongoDBOperatorDemo(ReadOnlyTargetRules Target) : base(Target)
+	public MongoDBDriverDemo(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
