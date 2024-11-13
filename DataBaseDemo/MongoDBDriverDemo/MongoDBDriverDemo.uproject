@@ -8,11 +8,6 @@
 			"Name": "MongoDBDriverDemo",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
-		},
-		{
-			"Name": "MongoDBDriver",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
