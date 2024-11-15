@@ -1,11 +1,11 @@
 # MySQL & MariaDB Operator Demo    
 ## Provide operations of SELECT, DELETE, UPDATE, ADD for MySQL and MariaDB
-plugin link:   
+### [获取plugin get plugin link](https://buy.stripe.com/3cs14f3K5cq198I7sw):     
 [虚幻商场](https://www.unrealengine.com/marketplace/zh-CN/product/redisoperator)  
 [Unreal Market](https://www.unrealengine.com/marketplace/en-US/product/redisoperator)  
 introduction videos：   
-[B站中国](https://www.bilibili.com/video/BV1cF411A7Ex?share_source=copy_web&vd_source=74c5a7ee7e63695eed9e0f75ba7bbc88)  
-[YouTuBe](https://www.youtube.com/watch?v=OoNrNrngZdA&t=5s)  
+[YouTuBe](https://youtu.be/RdY1BI64QqQ?si=FIuxmg-5Qh4Om8GD)  
+[B站中国](https://www.bilibili.com/video/BV1r7UNY2EoB)  
 
 
 支持多线程异步，效率高 :     
