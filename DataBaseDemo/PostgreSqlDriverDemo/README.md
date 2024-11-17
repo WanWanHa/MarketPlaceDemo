@@ -29,13 +29,13 @@ it only use for INSERT, UPDATE, USE, Etc command,  WITHOUT SELECT
 
 
 ##3: SELECT:        
-a: before we send SELECT query, we need to tell MySQL/MariaDB what DataBase we need to use:    
+a: before we send SELECT query, we need to tell PostgreSQL what DataBase we need to use:    
 ![image](https://github.com/user-attachments/assets/149fd044-aee3-490e-adf9-75734c7db33b)     
 yes, throught last command in STEP 2, then we use Execute SQLQuery interface :       
 ![image](https://github.com/user-attachments/assets/c8a02236-9dc5-4356-adb1-c8b4347e4852)     
-### we need to add Event for this Query Command, and MySql/MariaDB will tell us data we need from this callback Event:    
+### we need to add Event for this Query Command, and PostgreSQL will tell us data we need from this callback Event:    
 ![image](https://github.com/user-attachments/assets/900afc4c-ee12-447a-9e3a-a2f3600b66c4)     
-### we also need to tell MySql/MariaDB what kind of value in this table, in this sample, we have Integer, String, Float three kind of value in this table:   
+### we also need to tell PostgreSQL what kind of value in this table, in this sample, we have Integer, String, Float three kind of value in this table:   
 ![image](https://github.com/user-attachments/assets/95309552-619c-412c-9879-9a4a70237f89)     
 ### so we create an Array of these three kind type of value:    
 ![image](https://github.com/user-attachments/assets/fa9b91ca-91c8-458f-a0d9-7d43918265cc)     
