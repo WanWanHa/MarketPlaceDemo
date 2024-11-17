@@ -1,5 +1,5 @@
-# MySQL & MariaDB Operator Demo    
-## Provide operations of SELECT, DELETE, UPDATE, ADD for MySQL and MariaDB
+# PostgreSQL Driver Demo    
+## Provide operations of SELECT, DELETE, UPDATE, ADD for PostgreSQL
 plugin link:   
 [虚幻商场](https://www.unrealengine.com/marketplace/zh-CN/product/redisoperator)  
 [Unreal Market](https://www.unrealengine.com/marketplace/en-US/product/redisoperator)  
@@ -17,12 +17,12 @@ Supports all operations required by the database, including adding, deleting, mo
 相关接口 :     
 some interface ：    
 ##1: Create Operator Instance 创建 Operator:   
-![image](https://github.com/user-attachments/assets/eef548a3-a83f-45be-859c-3d4131c5e2f7)     
-URL should be like this:  tcp://127.0.0.1:20929,    
-tcp is for protocol, MySql/MariaDB IP address, and Port For MySql/MariaDB    
+![image](https://github.com/user-attachments/assets/9e04b013-387d-4880-bd65-3b8e288f23f8)      
+URL should be like this:  postgresql://accounting@localhost/company,    
+address is postgresql ip, database name, username, password      
 
 ##2: Execute SQL script:     
-![image](https://github.com/user-attachments/assets/a264b154-58ac-4221-920a-5c0891534428)    
+![image](https://github.com/user-attachments/assets/fd626791-519b-42d7-bb38-b2be5dbc6291)     
 this interface called Execute SQL command,    
 it only use for INSERT, UPDATE, USE, Etc command,  WITHOUT SELECT    
 注意这个接口不包括  SELECT， 其他的命令都可以包括    
@@ -43,7 +43,7 @@ yes, throught last command in STEP 2, then we use Execute SQLQuery interface :
 ![image](https://github.com/user-attachments/assets/69cc40f1-40bd-40c3-82ea-695e2d789533)     
 
 ## General Sample:    
-![image](https://github.com/user-attachments/assets/1bf2692a-a28a-4262-8af8-69bb38d6b8d9)    
+![image](https://github.com/user-attachments/assets/c3cb3da3-f969-4331-aa34-3661a501bf82)     
 
 
 
