@@ -30,7 +30,7 @@ yes, throught last command in STEP 1, then we use Execute SQLQuery interface :
 ![image](https://github.com/user-attachments/assets/0a180b57-b0d6-43c9-966f-2cd280b0c2ee)     
 ### we need to add Event for this Query Command, and MySql/MariaDB will tell us data we need from this callback Event:    
 ![image](https://github.com/user-attachments/assets/4a38bacf-fc31-4dab-8e7b-483e24ccc58d)     
-### we also need to tell MySql/MariaDB what kind of value in this table, in this sample, we have Integer, String, Float three kind of value in this table:   
+### we also need to tell SQLite what kind of value in this table, in this sample, we have Integer, String, Float three kind of value in this table:   
 ![image](https://github.com/user-attachments/assets/95309552-619c-412c-9879-9a4a70237f89)     
 ### so we create an Array of these three kind type of value:    
 ![image](https://github.com/user-attachments/assets/f96d3f2b-7c91-4cd1-9f7d-880bcc44d09f)       
