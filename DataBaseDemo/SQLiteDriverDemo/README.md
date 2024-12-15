@@ -1,5 +1,5 @@
-# MySQL & MariaDB Operator Demo    
-## Provide operations of SELECT, DELETE, UPDATE, ADD for MySQL and MariaDB
+# SQLite Driver Demo    
+## Provide operations of SELECT, DELETE, UPDATE, ADD for SQLite
 plugin link:   
 [虚幻商场](https://www.unrealengine.com/marketplace/zh-CN/product/redisoperator)  
 [Unreal Market](https://www.unrealengine.com/marketplace/en-US/product/redisoperator)  
@@ -16,34 +16,29 @@ Supports all operations required by the database, including adding, deleting, mo
 
 相关接口 :     
 some interface ：    
-##1: Create Operator Instance 创建 Operator:   
-![image](https://github.com/user-attachments/assets/eef548a3-a83f-45be-859c-3d4131c5e2f7)     
-URL should be like this:  tcp://127.0.0.1:20929,    
-tcp is for protocol, MySql/MariaDB IP address, and Port For MySql/MariaDB    
-
-##2: Execute SQL script:     
-![image](https://github.com/user-attachments/assets/a264b154-58ac-4221-920a-5c0891534428)    
+##1: Execute SQL script:     
+![image](https://github.com/user-attachments/assets/9fc8e2bf-ea7f-4580-a0da-86dd0c2e69a1)    
 this interface called Execute SQL command,    
 it only use for INSERT, UPDATE, USE, Etc command,  WITHOUT SELECT    
 注意这个接口不包括  SELECT， 其他的命令都可以包括    
 
 
-##3: SELECT:        
+##2: SELECT:        
 a: before we send SELECT query, we need to tell MySQL/MariaDB what DataBase we need to use:    
-![image](https://github.com/user-attachments/assets/149fd044-aee3-490e-adf9-75734c7db33b)     
-yes, throught last command in STEP 2, then we use Execute SQLQuery interface :       
-![image](https://github.com/user-attachments/assets/c8a02236-9dc5-4356-adb1-c8b4347e4852)     
+![image](https://github.com/user-attachments/assets/69662a7a-5195-4b24-ae2f-feb6b88d7361)     
+yes, throught last command in STEP 1, then we use Execute SQLQuery interface :       
+![image](https://github.com/user-attachments/assets/0a180b57-b0d6-43c9-966f-2cd280b0c2ee)     
 ### we need to add Event for this Query Command, and MySql/MariaDB will tell us data we need from this callback Event:    
-![image](https://github.com/user-attachments/assets/900afc4c-ee12-447a-9e3a-a2f3600b66c4)     
-### we also need to tell MySql/MariaDB what kind of value in this table, in this sample, we have Integer, String, Float three kind of value in this table:   
+![image](https://github.com/user-attachments/assets/4a38bacf-fc31-4dab-8e7b-483e24ccc58d)     
+### we also need to tell SQLite what kind of value in this table, in this sample, we have Integer, String, Float three kind of value in this table:   
 ![image](https://github.com/user-attachments/assets/95309552-619c-412c-9879-9a4a70237f89)     
 ### so we create an Array of these three kind type of value:    
-![image](https://github.com/user-attachments/assets/fa9b91ca-91c8-458f-a0d9-7d43918265cc)     
+![image](https://github.com/user-attachments/assets/f96d3f2b-7c91-4cd1-9f7d-880bcc44d09f)       
 ### also we need to parse the result use the same order of value type     
-![image](https://github.com/user-attachments/assets/69cc40f1-40bd-40c3-82ea-695e2d789533)     
+![image](https://github.com/user-attachments/assets/b2350d30-f67e-45d9-9cd7-9a0752e6ae3e)     
 
 ## General Sample:    
-![image](https://github.com/user-attachments/assets/1bf2692a-a28a-4262-8af8-69bb38d6b8d9)    
+![image](https://github.com/user-attachments/assets/48267b67-e5aa-4595-b3d9-c4e10e1b2726)       
 
 
 
